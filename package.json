@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.3.0",
+    "onchange": "^7.0.2",
+    "request": "^2.88.2",
+    "supertest": "^4.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "name": "node_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1",
+    "should": "^13.2.3",
+    "superagent": "^6.0.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "posttest": "onchange **/**.js -- mocha --watch --reporter mochawesome",
+    "start": "webapck",
+    "build": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

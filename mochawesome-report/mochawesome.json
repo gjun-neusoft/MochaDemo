@@ -1,0 +1,278 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 7,
+    "passes": 6,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-08-11T06:03:42.798Z",
+    "end": "2020-08-11T06:03:43.970Z",
+    "duration": 1172,
+    "testsRegistered": 7,
+    "passPercent": 85.71428571428571,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "b3aa1d0e-746f-4174-837e-1ec0be3d041a",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e96fed0f-a2a5-44b5-9ba6-7266f90f1223",
+          "title": "Player测试",
+          "fullFile": "F:\\kaikeba\\Test\\Mocha-test\\test\\player.spec.js",
+          "file": "\\test\\player.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "player刷新",
+              "fullTitle": "Player测试 player刷新",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "refresh().should.be.eql('player刷新')",
+              "err": {},
+              "uuid": "a715cd7e-02d3-43d5-9b34-d16db051a833",
+              "parentUUID": "e96fed0f-a2a5-44b5-9ba6-7266f90f1223",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "player销毁",
+              "fullTitle": "Player测试 player销毁",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "destroy().should.be.eql('player销毁')",
+              "err": {},
+              "uuid": "88235019-48dd-49de-b915-a37addd69299",
+              "parentUUID": "e96fed0f-a2a5-44b5-9ba6-7266f90f1223",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "player布局 ",
+              "fullTitle": "Player测试 player布局 ",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "layout().should.be.eql('player布局')",
+              "err": {},
+              "uuid": "25f2d5e4-48e7-495a-80bd-b91f8eec406d",
+              "parentUUID": "e96fed0f-a2a5-44b5-9ba6-7266f90f1223",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a715cd7e-02d3-43d5-9b34-d16db051a833",
+            "88235019-48dd-49de-b915-a37addd69299",
+            "25f2d5e4-48e7-495a-80bd-b91f8eec406d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "a515c09d-dfcd-464a-8f05-cab1f5bbfb40",
+          "title": "render测试",
+          "fullFile": "F:\\kaikeba\\Test\\Mocha-test\\test\\render.spec.js",
+          "file": "\\test\\render.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "render创建",
+              "fullTitle": "render测试 render创建",
+              "timedOut": false,
+              "duration": 3,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "create().should.have.property('imageData')",
+              "err": {},
+              "uuid": "8b2827a0-bf57-4236-814f-e3b7a6f8e3fd",
+              "parentUUID": "a515c09d-dfcd-464a-8f05-cab1f5bbfb40",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "render重置",
+              "fullTitle": "render测试 render重置",
+              "timedOut": false,
+              "duration": 5,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "reset().should.be.eql('render重置')",
+              "err": {},
+              "uuid": "3aa04542-010c-4f2d-90e3-48effbea4d6c",
+              "parentUUID": "a515c09d-dfcd-464a-8f05-cab1f5bbfb40",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8b2827a0-bf57-4236-814f-e3b7a6f8e3fd",
+            "3aa04542-010c-4f2d-90e3-48effbea4d6c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "42d0cc12-81ff-4c97-8426-1aad73dc3fda",
+          "title": "Promise异步",
+          "fullFile": "F:\\kaikeba\\Test\\Mocha-test\\test\\server.spec.js",
+          "file": "\\test\\server.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Promise异步",
+              "fullTitle": "Promise异步 Promise异步",
+              "timedOut": false,
+              "duration": 1003,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const ret = await psm()\nret.should.be.eql('Promise异步')",
+              "err": {},
+              "uuid": "c599a264-244a-43fc-87ee-e75c05bd2005",
+              "parentUUID": "42d0cc12-81ff-4c97-8426-1aad73dc3fda",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c599a264-244a-43fc-87ee-e75c05bd2005"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1003,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "bafcabf5-f621-4283-858b-d45bc04c0464",
+          "title": "GET请求测试",
+          "fullFile": "F:\\kaikeba\\Test\\Mocha-test\\test\\server.spec.js",
+          "file": "\\test\\server.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "GET请求",
+              "fullTitle": "GET请求测试 GET请求",
+              "timedOut": false,
+              "duration": 108,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "request('localhost:3000')\n    .get('/test')\n    .end((err, res) => {\n        res.body.should.be.eql('{\"name\":\"g.jun\"}')\n        done()\n    })",
+              "err": {
+                "message": "AssertionError: expected 'Hello Neusoft.com' to equal '{\"name\":\"g.jun\"}'",
+                "estack": "AssertionError: expected 'Hello Neusoft.com' to equal '{\"name\":\"g.jun\"}'\n    at Assertion.fail (node_modules\\should\\cjs\\should.js:275:17)\n    at Assertion.value (node_modules\\should\\cjs\\should.js:356:19)\n    at Test.<anonymous> (test\\server.spec.js:17:36)\n    at Test.assert (node_modules\\_supertest@4.0.2@supertest\\lib\\test.js:181:6)\n    at localAssert (node_modules\\_supertest@4.0.2@supertest\\lib\\test.js:131:12)\n    at F:\\kaikeba\\Test\\Mocha-test\\node_modules\\_supertest@4.0.2@supertest\\lib\\test.js:128:5\n    at Test.Request.callback (node_modules\\_superagent@6.0.0@superagent\\lib\\node\\index.js:894:12)\n    at F:\\kaikeba\\Test\\Mocha-test\\node_modules\\_superagent@6.0.0@superagent\\lib\\node\\index.js:1127:20\n    at IncomingMessage.<anonymous> (node_modules\\_superagent@6.0.0@superagent\\lib\\node\\parsers\\json.js:22:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)",
+                "diff": "- Hello Neusoft.com\n+ {\"name\":\"g.jun\"}\n"
+              },
+              "uuid": "42e1126a-78d2-45fd-9fc5-eb3d2f1d2f23",
+              "parentUUID": "bafcabf5-f621-4283-858b-d45bc04c0464",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "42e1126a-78d2-45fd-9fc5-eb3d2f1d2f23"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 108,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
